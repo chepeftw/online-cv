@@ -1,7 +1,7 @@
 # Site Settings
-title: My Resume
-url: 'http://webjeda.com'
-baseurl: '/online-cv' #change it according to your repository name
+title: Jose Alfredo Alvarez Aldana - Online CV
+url: 'http://chepeftw.com'
+baseurl: '' #change it according to your repository name
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
 #style: styles-2
@@ -11,25 +11,33 @@ baseurl: '/online-cv' #change it according to your repository name
 #style: styles-6
 
 #Profile information
-name: Alan Doe
-tagline: Full Stack Developer
+name: José Alfredo Alvarez Aldana
+tagline: Computer Science Researcher
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-summary: 'Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-You can <a href="#" target="_blank">download this free resume/CV template here</a>. Aenean
-commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.'
+summary: 'I am a software architect with extensive experience with web technologies.
+I have worked with multiple implementations focused on infrastructure, back end and front end development. 
+With this, I also experience with project management, scrum methodologies, SEO and marketing. 
+I am a systems engineer graduated from Galileo University. 
+After that I studied a master in information technology with specialization in computer networks and information security.
+In search to widen my knowledge I also studied electronics engineer. 
+I consider myself a highly proactive person and dedicated to finish what I start.
+I like to do a lot of research, so I can fully understand what I am working on. 
+I am very passionate about technology so I try to keep up by reading and studying new technologies and methodologies. 
+On a personal level I consider myself a very responsible person, I believe that it is what best talks about ourselves. 
+I really like challenges and I know that I am very adaptable to change.
+I always look for the positive things of every situation and try to give the best of me.'
 
 #sidebar links
-email: hello@webjeda.com
-phone: 012 345 6789
-website: blog.webjeda.com #do not add http://
-linkedin: alandoe
-github: sharu725
-twitter: '@webjeda'
+email: jose@mint3inc.com
+phone: +33 06 95 50 74 15
+website: chepeftw.com #do not add http://
+linkedin: chepeftw
+github: chepeftw
+twitter: '@chepeftw'
 #Update all the sections by editing the files inside _data folder.
 
 # Tracker
-analytics: UA-83979019-1
+analytics: UA-00000000-1
 
 # Build settings
 encoding: "utf-8"
