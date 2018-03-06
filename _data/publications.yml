@@ -1,0 +1,49 @@
+- publication:
+  title: "<a target='_blank' href='https://arxiv.org/abs/1712.01676'>
+  Jose Alvarez, Stephane Maag, Fatiha Zaidi. 
+  <br> DHYMON: a Continuous Decentralized Hybrid Monitoring Architecture for MANETs
+  </a>"
+  time: November, 2017
+  conference: LATINCOM, Guatemala City, Guatemala
+- publication:
+  title: "<a target='_blank' href='http://ieeexplore.ieee.org/document/7920938/'>
+  Jose Alvarez, Stephane Maag, Fatiha Zaidi. 
+  <br> Monitoring Dynamic Mobile Ad-Hoc Networks: A Fully Distributed Hybrid Architecture
+  </a>"
+  time: March, 2017
+  conference: AINA, Taipei, Taiwan
+- publication:
+  title: "<a target='_blank' href='http://ieeexplore.ieee.org/document/7778646/'>
+  Jose Alvarez, Stephane Maag, Fatiha Zaidi. 
+  <br> MANETs monitoring with a distributed hybrid architecture
+  </a>"
+  time: October, 2016
+  conference: NCA, Cambridge, MA, USA
+- publication:
+  title: "<a target='_blank' href='http://ieeexplore.ieee.org/document/7430126/'>
+  Marco To, Jose Alvarez, Oscar Rodas, Gerardo Morales. 
+  <br> Protecting Wireless Mesh Networks through a Distributed Intrusion Prevention Framework
+  </a>"
+  time: November, 2015
+  conference: LATINCOM, Arequipa, Peru
+- publication:
+  title: "<a target='_blank' href='http://ieeexplore.ieee.org/document/7363060/'>
+  Marco To, Jose Alvarez, Marcos Cano, Gerardo Morales. 
+  <br> Spanning Data Across Heterogeneous MANETs through Proactive Strip Interoperability
+  </a>"
+  time: October, 2015
+  conference: CIT, Liverpool, UK
+- publication:
+  title: "<a target='_blank' href='https://www.researchgate.net/profile/Jose_Alvarez39/publication/271851195_A_Reliable_and_Scalable_Classification-based_Hybrid_IPS/links/54d4f9ad0cf25013d02a473f.pdf'>
+  Oscar Rodas, Jose Alvarez, Gerardo Morales. 
+  <br> A Reliable and Scalable Classification-based Hybrid IPS
+  </a>"
+  time: March, 2015
+  conference: AINA workshop, Gwangju, Korea
+- publication:
+  title: "<a target='_blank' href='https://www.researchgate.net/profile/Oscar_Rodas/publication/271079268_A_novel_Classification-based_Hybrid_IDS/links/54bddfd80cf218da9391d099.pdf'>
+  Oscar Rodas, Jose Alvarez, Gerardo Morales and Stephane Maag. 
+  <br> A novel Classification-based Hybrid IDS
+  </a>"
+  time: December, 2014
+  conference: PASSAT, Cambridge, MA, USA

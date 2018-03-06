@@ -13,7 +13,7 @@ baseurl: '' #change it according to your repository name
 #Profile information
 name: José Alfredo Alvarez Aldana
 tagline: Computer Science Researcher
-pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+pic: me.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 summary: 'I am a software architect with extensive experience with web technologies.
 I have worked with multiple implementations focused on infrastructure, back end and front end development. 
 With this, I also experience with project management, scrum methodologies, SEO and marketing. 
@@ -31,6 +31,7 @@ I always look for the positive things of every situation and try to give the bes
 email: jose@mint3inc.com
 phone: +33 06 95 50 74 15
 website: chepeftw.com #do not add http://
+dblp: Alvarez:Jose
 linkedin: chepeftw
 github: chepeftw
 twitter: '@chepeftw'

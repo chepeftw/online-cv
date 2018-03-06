@@ -1,28 +1,66 @@
 - experience:
-  role: Lead Developer
+  role: Scientific Researcher
   time: 2015 - Present
-  company: Startup Hubs, San Francisco
-  details: "Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing
-  elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-  magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-  pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.
-  <br> <br>
-  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-  laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-  architecto beatae vitae dicta sunt explicabo."
+  company: Telecom SudParis, France
+  details: "I work doing research in the topic of distributed systems, monitoring and mobile ad-hoc networks. 
+  I have extensive experience defining mathematical models and tools to model the proposals. 
+  Also working with implementations in Java, Python and GoLang, working with AWS, Docker and NS3."
 - experience:
-  role: Senior Software Engineer
-  time: 2014 - 2015
-  company: Google, London
-  details: "Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing
-  elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-  magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-  pellentesque eu, pretium quis, sem."
+  role: Technical Architect & Senior Consultant
+  time: 2011 - Present
+  company: XumaK, Guatemala
+  details: "I work designing solutions for clients based on their needs, 
+  we start with the dissection of the requirements, helping them identify possible blockers or 
+  considerations they might need to take from the beginning, environment setup and finally 
+  deployment of the project to production environment. 
+  All this tasks involves doing research and testing taking into account client's requirements, 
+  technologies and expectancy to provide accurate results. 
+  I also work as a consultant where I advise the team for bug fixing, good practices, code reviews, 
+  infrastructure considerations, proof of concept and any help they need. 
+  In both I have worked with different teams being on site and offsite from 
+  Guatemala, Mexico, Orlando, New York, San Francisco, Cleveland, Paris, London, Jamaica, Chile and Brazil, 
+  focusing on developing global solutions and integrations with Adobe AEM and Java. 
+  I have extensive hands on setting up automated cloud environments fully integrated with continuous integrations, 
+  monitoring and ready for deployment."
 - experience:
-  role: UI Developer
-  time: 2012 - 2014
-  company: Amazon, London
-  details: "Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing
-  elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-  magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-  pellentesque eu, pretium quis, sem."
+  role: FISICC Lecturer
+  time: 2012 - 2015
+  company: Galileo University, Guatemala
+  details: "I have worked as a Professor in the following classes: Computer Science 4 and Informatics 3."
+- experience:
+  role: FISICC Teacher Assistant
+  time: 2007 - 2015
+  company: Galileo University, Guatemala
+  details: "I have worked as a Professor Assistant since I was in my second year of college. 
+  I assisted in the following classes: Computer Science 1, 2, 3 and 4, Differential Equations, 
+  Electricity 1 and 2, Electronics 1, Informatics 3, Mathematics 1, 2, 3, 4, 5 and 7, 
+  Microprocessors, Systems Architecture, Algorithms and Data Structures.
+  After finishing my post graduate degree I also started assisting in this area in the following classes:
+  Security Fundamentals, Windows security and Forensics analysis."
+- experience:
+  role: Senior Developer & System Administrator
+  time: 2010 - 2011
+  company: Previo, Guatemala
+  details: "I was in charge of a small team of developers and designers, where our main tasks were to create big databases 
+  with lots of information about countries, real states, cars, boats, planes and heavy machinery,
+   with that information we built a system that could create dynamic websites based on different combination of the data. 
+   All websites were required to be SEO friendly, in which we focused lot of time implementing good practices, 
+   analysing traffic and with the feedback we enhanced the websites. 
+   We took optimizing seriously since an important factor was fast response time, 
+   this included Linux itself and Apache with different optimization modules, 
+   then database denormalization and finally framework and code optimizations."
+- experience:
+  role: IT Developer
+  time: 2009 - 2010
+  company: Transactel, Guatemala
+  details: "I worked creating different tools that helped the call center to improve their 
+  operations with tools like recruitment systems, time loggers, internal communication portals and attendance tools. 
+  I also promoted the use of frameworks and good programming practices. 
+  I worked extensively on the reengineering of their main website (https://www.transactel.net/), 
+  which took the integration of designers, marketers, programmers and administration teams."
+- experience:
+  role: Programmer
+  time: 2009 - 2009
+  company: Welco Gaming, Guatemala
+  details: "Worked with Embedded C applications for different projects, 
+  most of the time I focused on code analysis, re factoring code and working on new features."
