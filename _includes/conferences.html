@@ -1,0 +1,29 @@
+{% if site.data.conferences %}
+<section class="section experiences-section">
+  <h2 class="section-title"><i class="fa fa-briefcase"></i>Conferences</h2>
+
+{% for conference in site.data.conferences %}
+  <div class="item">
+
+    <div class="meta">
+
+      <div class="upper-row">
+        <h3 class="job-title">{{ conference.title }}</h3>
+        <div class="time">{{ conference.time }}</div>
+      </div><!--//upper-row-->
+
+      <div class="company">{{ conference.location }}</div>
+
+    </div><!--//meta-->
+
+    {% if conference.details %}
+    <div class="details">
+      <p>{{ conference.details }}</p>
+    </div><!--//details-->
+    {% endif %}
+
+  </div><!--//item-->
+{% endfor %}
+
+</section><!--//section-->
+{% endif %}

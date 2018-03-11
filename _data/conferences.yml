@@ -1,0 +1,25 @@
+- conference:
+  title: IEEE NCA 2016
+  time: 2016
+  location: Hyatt Regency at MIT University, Cambridge, MA, USA.
+  details: "Paper presentation entitled MANETs monitoring with a distributed hybrid architecture."
+- conference:
+  title: IEEE CIT 2015
+  time: 2015
+  location: Jurys Inn Liverpool Hotel, Liverpool, UK.
+  details: "Paper presentation entitled Spanning Data Across Heterogeneous MANETs through Proactive Strip Interoperability."
+- conference:
+  title: PASSAT 2014
+  time: 2014
+  location: Institute for Quantitative Social Science at Harvard University, Cambridge, MA, USA.
+  details: "Paper presentation entitled A novel Classification-based Hybrid IDS."
+- conference:
+  title: Technological Innovation Forum (FIT)
+  time: 2014, 2012
+  location: Galileo University, Guatemala, Guatemala.
+  details: "An API your parents would be proud of and Agile website creation with Symfony2 framework."
+- conference:
+  title: Barcamp
+  time: 2012
+  location: Francisco Marroquin University, Guatemala City, Guatemala.
+  details: "SEO and Website Optimization."

@@ -2,9 +2,15 @@
   role: Scientific Researcher
   time: 2015 - Present
   company: Telecom SudParis, France
-  details: "I work doing research in the topic of distributed systems, monitoring and mobile ad-hoc networks. 
+  details: "I work doing research in the topic of distributed systems, monitoring and mobile ad-hoc networks.
+  My main foucs has been to propose novel solutions and approaches to provide efficient monitoring techniques for MANETs.
+  This implies taking into account the properties of this networks as mobility, availability, node range and others.
   I have extensive experience defining mathematical models and tools to model the proposals. 
-  Also working with implementations in Java, Python and GoLang, working with AWS, Docker and NS3."
+  Along this I have developed multiple tools like a NS3 Docker Emulator, which is a flexible network emulator relying on NS3 and Docker to run the code to be emulated.
+  Through this tool, I have designed other frameworks for monitoring focusing on decentralized and distributed architectures, which have been developed in Java and GoLang.
+  Aside from that, I have integrated the emulator and my proposals with an AWS orchestrator that I built to provide thousands of experiments and data in a short time frame.
+  Together, I have been able to generate a lot of data, then store it in a MongoDB and later run analysis on the data to be finally presented in publications.
+  All this tools and code can be found in my Github profile."
 - experience:
   role: Technical Architect & Senior Consultant
   time: 2011 - Present
@@ -12,14 +18,13 @@
   details: "I work designing solutions for clients based on their needs, 
   we start with the dissection of the requirements, helping them identify possible blockers or 
   considerations they might need to take from the beginning, environment setup and finally 
-  deployment of the project to production environment. 
-  All this tasks involves doing research and testing taking into account client's requirements, 
-  technologies and expectancy to provide accurate results. 
+  deployment of the project to production environment.
   I also work as a consultant where I advise the team for bug fixing, good practices, code reviews, 
-  infrastructure considerations, proof of concept and any help they need. 
+  infrastructure considerations, proof of concepts and any help they need. 
   In both I have worked with different teams being on site and offsite from 
-  Guatemala, Mexico, Orlando, New York, San Francisco, Cleveland, Paris, London, Jamaica, Chile and Brazil, 
-  focusing on developing global solutions and integrations with Adobe AEM and Java. 
+  Guatemala, Mexico, Orlando, New York, San Francisco, Cleveland, Charlotte, Los Angeles, Vancuver, Ottawa, Paris, London, Jamaica, Chile and Brazil,
+  focusing on developing global solutions and integrations with Adobe AEM and Java.
+  I have experience in AEM since the last versions of CQ 4 to the recent AEM 6.4.
   I have extensive hands on setting up automated cloud environments fully integrated with continuous integrations, 
   monitoring and ready for deployment."
 - experience:

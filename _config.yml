@@ -8,18 +8,22 @@ baseurl: '' #change it according to your repository name
 #style: styles-3
 #style: styles-4
 #style: styles-5
-#style: styles-6
+style: styles-6
 
 #Profile information
 name: José Alfredo Alvarez Aldana
 tagline: Computer Science Researcher
 pic: me.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-summary: 'I am a software architect with extensive experience with web technologies.
-I have worked with multiple implementations focused on infrastructure, back end and front end development. 
-With this, I also experience with project management, scrum methodologies, SEO and marketing. 
-I am a systems engineer graduated from Galileo University. 
+summary: 'I am a computer science researcher and software architect.
+As a researcher, I have been working in France from Telecom SudParis, focused on researching distributed monitoring of MANETs.
+I have propose different approaches from decentralized to distributed, and I have developed the neccesary tools to prove them.
+I developed a NS3 Docker Emulator which has enabled me to re produce accurately thousands of tests in a very short time.
+As a software architect, I have worked with multiple web tech implementations focused on infrastructure, back end and front end development. 
+With this, I also experience with project management, scrum methodologies, SEO and marketing.
+I have been lucky to work on site and off site from people from Guatemala, Mexico, the Caribean, USA, Canada and Europe.
+I am an engineer on computer science graduated from Galileo University in Guatemala.
 After that I studied a master in information technology with specialization in computer networks and information security.
-In search to widen my knowledge I also studied electronics engineer. 
+In search to widen my knowledge I also studied a second engineering but on electronics. 
 I consider myself a highly proactive person and dedicated to finish what I start.
 I like to do a lot of research, so I can fully understand what I am working on. 
 I am very passionate about technology so I try to keep up by reading and studying new technologies and methodologies. 
@@ -38,7 +42,7 @@ twitter: '@chepeftw'
 #Update all the sections by editing the files inside _data folder.
 
 # Tracker
-analytics: UA-00000000-1
+analytics: UA-23590276-3
 
 # Build settings
 encoding: "utf-8"
