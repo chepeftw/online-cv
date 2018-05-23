@@ -3,30 +3,46 @@
   time: 2015 - Present
   company: Telecom SudParis, France
   details: "I work doing research in the topic of distributed systems, monitoring and mobile ad-hoc networks.
-  My main foucs has been to propose novel solutions and approaches to provide efficient monitoring techniques for MANETs.
+  My main focus has been to propose novel solutions and approaches to provide efficient monitoring techniques for MANETs.
+  I've focused on decentralized (inspired in gossip and hierarchical algorithms) and distributed (inspired in blockchain) approaches.
   This implies taking into account the properties of this networks as mobility, availability, node range and others.
   I have extensive experience defining mathematical models and tools to model the proposals. 
-  Along this I have developed multiple tools like a NS3 Docker Emulator, which is a flexible network emulator relying on NS3 and Docker to run the code to be emulated.
-  Through this tool, I have designed other frameworks for monitoring focusing on decentralized and distributed architectures, which have been developed in Java and GoLang.
+  Along this, I have developed multiple tools like a NS3 Docker Emulator, which is a flexible network emulator relying on NS3 and Docker to run the code to be emulated.
+  Through this tool, I have designed other frameworks for monitoring focusing on decentralized and distributed architecture, which have been developed in Java and GoLang.
   Aside from that, I have integrated the emulator and my proposals with an AWS orchestrator that I built to provide thousands of experiments and data in a short time frame.
-  Together, I have been able to generate a lot of data, then store it in a MongoDB and later run analysis on the data to be finally presented in publications.
-  All this tools and code can be found in my Github profile."
+  Together, I have been able to generate a lot of data, then store it in a MongoDB and later run the analysis on the data to be finally presented in publications.
+  All these tools and code can be found in my Github profile."
 - experience:
   role: Technical Architect & Senior Consultant
   time: 2011 - Present
   company: XumaK, Guatemala
-  details: "I work designing solutions for clients based on their needs, 
-  we start with the dissection of the requirements, helping them identify possible blockers or 
-  considerations they might need to take from the beginning, environment setup and finally 
-  deployment of the project to production environment.
-  I also work as a consultant where I advise the team for bug fixing, good practices, code reviews, 
+  details: "I work designing global solutions for big companies built on Adobe Experience Manager (AEM).
+  I am used to work with the client from the requirements dissection, through development and QA, 
+  all the way to the deployment in the production environment.
+  Alongside, I have worked as a consultant where I advise the team for bug fixing, good practices, code reviews, 
   infrastructure considerations, proof of concepts and any help they need. 
   In both I have worked with different teams being on site and offsite from 
   Guatemala, Mexico, Orlando, New York, San Francisco, Cleveland, Charlotte, Los Angeles, Vancuver, Ottawa, Paris, London, Jamaica, Chile and Brazil,
-  focusing on developing global solutions and integrations with Adobe AEM and Java.
-  I have experience in AEM since the last versions of CQ 4 to the recent AEM 6.4.
+  focusing on developing global solutions and integration with AEM, Java and other technologies like e-commerce engines, AWS, Rackspace, Softlayer, Akamai and analytics engines.
+  I have experience in AEM from version CQ 4 to the most recent AEM 6.4.
   I have extensive hands on setting up automated cloud environments fully integrated with continuous integrations, 
-  monitoring and ready for deployment."
+  monitoring and ready for deployment.
+  I have worked with AEM, also extensively with OSGi, Sling, JSP, Java, GoLang, bash, Apache and MongoDB. "
+- experience:
+  role: Freelancer
+  time: 2008 - Present
+  company: Personal
+  details: "I work as a freelancer in my free time developing web systems or providing consulting for infrastructure.
+  I have a strong focus on web systems which I have worked with PHP and Symfony (from version 1.1 to 4).
+  I have designed web systems focused on health, where there are interfaces for doctors and patients.
+  For other companies, I have also worked on administrative tools, mainly companies that want to digitalize multiple processes and keep a better track of their work.
+  These tools range from volunteering organizations, state-branches offices and exporting companies from Guatemala and Mexico.
+  In the beginning, I worked directly with PHP, MySQL and Apache on a bare metal servers, 
+  but in the last years I have moved all my infrastructure practices to PaaS (Docker) and IaaS (Docker Swarm and Kubernetes).
+  I try to work as modular as possible, in the sense that the development follows the best practices of the moment 
+  as using Docker for scalability and having everything as a microservice, relying on minimal containers running in Alpine.
+  I also have worked in smaller websites based on Jekyll and static HTML.
+  Finally, I have done infrastructure consulting for GPS-services companies for Linux and Windows architecture. "
 - experience:
   role: FISICC Lecturer
   time: 2012 - 2015
@@ -51,6 +67,7 @@
    with that information we built a system that could create dynamic websites based on different combination of the data. 
    All websites were required to be SEO friendly, in which we focused lot of time implementing good practices, 
    analysing traffic and with the feedback we enhanced the websites. 
+   The websites and main interfaces were built with PHP, Symfony 2, MySQL, Apache, BIND and bash scripts.
    We took optimizing seriously since an important factor was fast response time, 
    this included Linux itself and Apache with different optimization modules, 
    then database denormalization and finally framework and code optimizations."
@@ -61,6 +78,7 @@
   details: "I worked creating different tools that helped the call center to improve their 
   operations with tools like recruitment systems, time loggers, internal communication portals and attendance tools. 
   I also promoted the use of frameworks and good programming practices. 
+  The tools created were built with PHP, Symfony 1.x/2, Wordpress, MySQL and Apache.
   I worked extensively on the reengineering of their main website (https://www.transactel.net/), 
   which took the integration of designers, marketers, programmers and administration teams."
 - experience:
