@@ -1,34 +1,4 @@
 - experience:
-  role: Scientific Researcher
-  time: 2015 - Present
-  company: Telecom SudParis, France
-  details: "I work doing research in the topic of distributed systems, monitoring and mobile ad-hoc networks.
-  My main focus has been to propose novel solutions and approaches to provide efficient monitoring techniques for MANETs.
-  I've focused on decentralized (inspired in gossip and hierarchical algorithms) and distributed (inspired in blockchain) approaches.
-  This implies taking into account the properties of this networks as mobility, availability, node range and others.
-  I have extensive experience defining mathematical models and tools to model the proposals. 
-  Along this, I have developed multiple tools like a NS3 Docker Emulator, which is a flexible network emulator relying on NS3 and Docker to run the code to be emulated.
-  Through this tool, I have designed other frameworks for monitoring focusing on decentralized and distributed architecture, which have been developed in Java and GoLang.
-  Aside from that, I have integrated the emulator and my proposals with an AWS orchestrator that I built to provide thousands of experiments and data in a short time frame.
-  Together, I have been able to generate a lot of data, then store it in a MongoDB and later run the analysis on the data to be finally presented in publications.
-  All these tools and code can be found in my Github profile."
-- experience:
-  role: Technical Architect & Senior Consultant
-  time: 2011 - Present
-  company: XumaK, Guatemala
-  details: "I work designing global solutions for big companies built on Adobe Experience Manager (AEM).
-  I am used to work with the client from the requirements dissection, through development and QA, 
-  all the way to the deployment in the production environment.
-  Alongside, I have worked as a consultant where I advise the team for bug fixing, good practices, code reviews, 
-  infrastructure considerations, proof of concepts and any help they need. 
-  In both I have worked with different teams being on site and offsite from 
-  Guatemala, Mexico, Orlando, New York, San Francisco, Cleveland, Charlotte, Los Angeles, Vancuver, Ottawa, Paris, London, Jamaica, Chile and Brazil,
-  focusing on developing global solutions and integration with AEM, Java and other technologies like e-commerce engines, AWS, Rackspace, Softlayer, Akamai and analytics engines.
-  I have experience in AEM from version CQ 4 to the most recent AEM 6.4.
-  I have extensive hands on setting up automated cloud environments fully integrated with continuous integrations, 
-  monitoring and ready for deployment.
-  I have worked with AEM, also extensively with OSGi, Sling, JSP, Java, GoLang, bash, Apache and MongoDB. "
-- experience:
   role: Freelancer
   time: 2008 - Present
   company: Personal
@@ -43,6 +13,36 @@
   as using Docker for scalability and having everything as a microservice, relying on minimal containers running in Alpine.
   I also have worked in smaller websites based on Jekyll and static HTML.
   Finally, I have done infrastructure consulting for GPS-services companies for Linux and Windows architecture. "
+- experience:
+  role: Scientific Researcher
+  time: 2015 - 2018
+  company: Telecom SudParis, France
+  details: "I work doing research on the topic of distributed systems, monitoring, and mobile ad-hoc networks.
+  My primary focus has been to propose novel solutions and approaches to provide efficient monitoring techniques for MANETs.
+  I've focused on decentralized (inspired by gossip and hierarchical algorithms) and distributed (inspired in blockchain) approaches.
+  This implies taking into account the properties of this networks as mobility, availability, node range, and others.
+  I have extensive experience defining mathematical models and tools to model the proposals. 
+  Along with this, I have developed multiple tools like a NS3 Docker Emulator, which is a flexible network emulator relying on NS3 and Docker to run the code to be emulated.
+  Through this tool, I have designed other frameworks for monitoring focusing on decentralized and distributed architecture, which have been developed in Java and GoLang.
+  Aside from that, I have integrated the emulator and my proposals with an AWS orchestrator that I built to provide thousands of experiments and data in a short time frame.
+  Together, I have been able to generate a lot of data, then store it in a MongoDB and later run the analysis on the data to be finally presented in publications.
+  All these tools and code can be found on my Github profile."
+- experience:
+  role: Technical Architect & Senior Consultant
+  time: 2011 - 2018
+  company: XumaK, Guatemala
+  details: "I work designing global solutions for big companies built on Adobe Experience Manager (AEM).
+  I am used to working with the client from the requirements dissection, through development and QA, 
+  all the way to the deployment in the production environment.
+  Alongside, I have worked as a consultant where I advise the team for bug fixing, good practices, code reviews, 
+  infrastructure considerations, proof of concepts and any help they need. 
+  In both, I have worked with different teams being on site and offsite from 
+  Guatemala, Mexico, Orlando, New York, San Francisco, Cleveland, Charlotte, Los Angeles, Vancouver, Ottawa, Paris, London, Jamaica, Chile, and Brazil,
+  focusing on developing global solutions and integration with AEM, Java and other technologies like e-commerce engines, AWS, Rackspace, Softlayer, Akamai, and analytics engines.
+  I have experience in AEM from version CQ 4 to the most recent AEM 6.4.
+  I have extensive hands-on setting up automated cloud environments fully integrated with continuous integrations, 
+  monitoring and ready for deployment.
+  I have worked with AEM, also extensively with OSGi, Sling, JSP, Java, GoLang, bash, Apache and MongoDB. "
 - experience:
   role: FISICC Lecturer
   time: 2012 - 2015
