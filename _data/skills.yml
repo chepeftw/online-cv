@@ -1,18 +1,18 @@
 - skill:
-  name: Java
+  name: Linux Management
   level: 100%
 - skill:
-  name: GoLang
+  name: AWS, GCP, Azure
+  level: 80%
+- skill:
+  name: Terraform, Ansible
+  level: 100%
+- skill:
+  name: Containers (Docker, Docker Compose, Docker Swarm, Kubernetes)
   level: 95%
 - skill:
-  name: Docker, Docker Compose & Docker Swarm
+  name: PHP (Symfony), Java (AEM), GoLang
   level: 95%
 - skill:
-  name: PHP & Symfony
-  level: 95%
-- skill:
-  name: Javascript, jQuery & Angular
-  level: 90%
-- skill:
-  name: HTML5 & CSS
-  level: 90%
+  name: HTML5, CSS, Javascript
+  level: 75%
