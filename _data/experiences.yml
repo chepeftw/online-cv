@@ -1,9 +1,27 @@
 - experience:
-  role: Freelancer
+  role: Senior DevOps Engineer
+  time: 2019 - Present
+  company: Sonos, Paris, France
+  details: "In 2002, Sonos set out to reinvent the way people listen at home. 
+  The wireless home sound system we created makes it easier than ever to fill any and every room with music, podcasts, TV, and just about anything else you could ever want to hear—all with brilliant, immersive clarity. 
+  Since then millions of people in over 60 countries have made Sonos part of their lives.
+
+  Today we remain focused on innovation, thoughtfully designing products, inventing new technologies, expanding our software platform, crafting the best sound experience and making a positive social impact in the world.
+
+  We’re empowering people to listen better because listening builds understanding and drives change. 
+  It even increases happiness and brings people together. 
+  Simply put, listening leads to a better life. (We’ve got the data to prove it.)"
+- experience:
+  role: CCN Lecturer
+  time: 2019 - Present
+  company: Telecom SudParis, Evry, France
+  details: "I am working as a lecturer in the course of Low-level data mangagement for the Master of Science program (CCN)."
+- experience:
+  role: Senior Tech Specialist
   time: 2008 - Present
-  company: Personal
-  details: "I work as a freelancer in my free time developing web systems or providing consulting for infrastructure.
-  I have a strong focus on web systems which I have worked with PHP and Symfony (from version 1.1 to 4).
+  company: Mint3 Inc.
+  details: "I work as a consultant in my free time developing web systems or providing consulting for infrastructure.
+  I have a strong focus on web systems which I have worked with PHP and Symfony (from version 1 to 5).
   I have designed web systems focused on health, where there are interfaces for doctors and patients.
   For other companies, I have also worked on administrative tools, mainly companies that want to digitalize multiple processes and keep a better track of their work.
   These tools range from volunteering organizations, state-branches offices and exporting companies from Guatemala and Mexico.
@@ -13,6 +31,15 @@
   as using Docker for scalability and having everything as a microservice, relying on minimal containers running in Alpine.
   I also have worked in smaller websites based on Jekyll and static HTML.
   Finally, I have done infrastructure consulting for GPS-services companies for Linux and Windows architecture. "
+- experience:
+  role: Senior DevOps Engineer
+  time: 2018 - 2019
+  company: Snips, Paris, France
+  details: "Snips is an AI voice platform for connected devices that animates product interactions with customizable voice experiences.
+  At Snips, I worked supporting all operations of the different software designed in-house through the proper development life cycle.
+  I worked a lot with Terraform, Ansible, and git to provide a full infrastructure-as-code.
+  I was also in charge of diffrent activities as mantaining, updating and enhancing services like Elasticsearch, Logstash, and Kibana 7.0, along Grafana for monitoring.
+  Along these tasks, I also worked very close to all the developers to assist them and guide them to migrate new tools to containers and deploy them in containerized environments."
 - experience:
   role: Scientific Researcher
   time: 2015 - 2018
@@ -47,12 +74,12 @@
   role: FISICC Lecturer
   time: 2012 - 2015
   company: Galileo University, Guatemala
-  details: "I have worked as a Professor in the following classes: Computer Science 4 and Informatics 3."
+  details: "I have worked as a lecturer in the following classes: Computer Science 4 and Informatics 3."
 - experience:
   role: FISICC Teacher Assistant
   time: 2007 - 2015
   company: Galileo University, Guatemala
-  details: "I have worked as a Professor Assistant since I was in my second year of college. 
+  details: "I have worked as a teacher assistant (TA) since I was in my second year of college. 
   I assisted in the following classes: Computer Science 1, 2, 3 and 4, Differential Equations, 
   Electricity 1 and 2, Electronics 1, Informatics 3, Mathematics 1, 2, 3, 4, 5 and 7, 
   Microprocessors, Systems Architecture, Algorithms and Data Structures.
