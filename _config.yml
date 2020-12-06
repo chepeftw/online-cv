@@ -10,6 +10,14 @@ baseurl: '' #change it according to your repository name
 #style: styles-5
 style: styles-6
 
+plugins:
+  - jekyll-minifier
+
+jekyll-minifier:
+  compress_css: false
+  uglifier_args:
+    harmony: true
+
 #Profile information
 name: José Alfredo Alvarez Aldana
 tagline: DevOps Specialist
