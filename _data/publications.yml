@@ -1,6 +1,13 @@
 - publication:
-  title: "<a target='_blank' href='https://arxiv.org/abs/1712.01676'>
+  title: "<a target='_blank' href='https://www.sciencedirect.com/science/article/pii/S2542660520301839?via%3Dihub'>
   Jose Alvarez, Stephane Maag, Fatiha Zaidi. 
+  <br> A Formal Consensus-based Distributed Monitoring Approach for mobile IoT networks
+  </a>"
+  time: January, 2021
+  conference: Elsevier
+- publication:
+  title: "<a target='_blank' href='https://arxiv.org/abs/1712.01676'>
+  Jose Alvarez, Stephane Maag, Fatiha Zaidi.
   <br> DHYMON: a Continuous Decentralized Hybrid Monitoring Architecture for MANETs
   </a>"
   time: November, 2017
