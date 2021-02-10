@@ -6,6 +6,8 @@ services:
         command: jekyll build
         volumes:
             - .:/srv/jekyll
+        environment:
+            - JEKYLL_ENV="production"
     nginx:
         image: nginx:alpine
         ports:
