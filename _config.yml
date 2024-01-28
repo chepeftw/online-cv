@@ -61,3 +61,8 @@ compress_html: # - http://jch.penibelst.de/
   clippings: all
   ignore:
     envs: development
+exclude:
+  - cli.sh
+  - docker-compose.yml
+  - LICENCE.md
+  - README.md
