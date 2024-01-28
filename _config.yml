@@ -21,7 +21,7 @@ jekyll-minifier:
 #Profile information
 name: José Alfredo Alvarez Aldana
 tagline: DevOps Specialist
-pic: me_2.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+pic: me.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 summary: 'I am a DevOps specialist, software architect and computer science researcher.
 As a DevOps specialist, based in Paris, I have worked implementing automation pipelines for big infrastructures relying on Terraform and Ansible for AWS, GCP and Azure.
 I have worked deploying multiple applications written in Python and Scala, natively and containerized, into different environments relying on CI/CD pipelines.
@@ -66,3 +66,16 @@ exclude:
   - docker-compose.yml
   - LICENCE.md
   - README.md
+  - assets/less/
+  - assets/css/styles.css
+  - assets/css/styles-2.css
+  - assets/css/styles-3.css
+  - assets/css/styles-4.css
+  - assets/css/styles-5.css
+  - assets/images/online-cv-jekyll-theme.png
+  - assets/images/online-cv-jekyll-theme-2.png
+  - assets/images/online-cv-responsive-jekyll-theme.png
+  - assets/images/profile.png
+  - assets/plugins/font-awesome/less/
+  - assets/plugins/font-awesome/scss/
+  - assets/plugins/font-awesome/HELP-US-OUT.txt
