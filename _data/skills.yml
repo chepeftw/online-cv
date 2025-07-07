@@ -3,16 +3,16 @@
   level: 100%
 - skill:
   name: AWS, GCP, Azure
-  level: 80%
+  level: 100%
 - skill:
-  name: Terraform, Ansible
+  name: Terraform, Terragrunt, Terramate, Ansible
   level: 100%
 - skill:
   name: Containers (Docker, Docker Compose, Docker Swarm, Kubernetes)
-  level: 95%
+  level: 100%
 - skill:
-  name: PHP (Symfony), Java (AEM), GoLang
-  level: 95%
+  name: PHP (Symfony), Java (AEM), GoLang, Python
+  level: 100%
 - skill:
   name: HTML5, CSS, Javascript
   level: 75%

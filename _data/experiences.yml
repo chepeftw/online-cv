@@ -2,115 +2,89 @@
   role: Senior DevOps Engineer
   time: 2019 - Present
   company: Sonos, Paris, France
-  details: "In 2002, Sonos set out to reinvent the way people listen at home. 
-  The wireless home sound system we created makes it easier than ever to fill any and every room with music, podcasts, TV, and just about anything else you could ever want to hear—all with brilliant, immersive clarity. 
-  Since then millions of people in over 60 countries have made Sonos part of their lives.
-
-  Today we remain focused on innovation, thoughtfully designing products, inventing new technologies, expanding our software platform, crafting the best sound experience and making a positive social impact in the world.
-
-  We’re empowering people to listen better because listening builds understanding and drives change. 
-  It even increases happiness and brings people together. 
-  Simply put, listening leads to a better life. (We’ve got the data to prove it.)"
+  details: "As Principal DevOps Engineer for the Sonos Voice Experience team, I own and architect a complex AWS multi-account infrastructure supporting global-scale services and machine learning workloads that scale dynamically to over 400 instances.
+I deliver secure, resilient, and scalable environments using Terraform, Terragrunt, and Terramate, with a strong focus on modular code, CI validations, and automated release pipelines.
+I lead the Kubernetes infrastructure strategy and GitOps automation using Argo tools, enabling developers to deploy via self-service pipelines with progressive delivery, while ensuring strict access controls, namespace governance, and operational consistency.
+I build and scale a comprehensive observability stack—including Prometheus, Thanos, Grafana, OpenSearch, and OpenTelemetry—working closely with developers to instrument services and improve performance monitoring and incident response.
+I also drive infrastructure governance in partnership with networking, security, and FinOps teams, enforcing IAM, cost, and network policies through automation and secure-by-default practices.
+In parallel, I lead major modernization efforts such as AWS account restructuring, CI/CD migration from Jenkins to GitHub Actions, and compute migration from EC2 to Kubernetes.
+I provide technical direction and mentorship across multiple teams, championing best practices in cloud architecture, GitOps, and scalable infrastructure to enhance platform reliability and engineering velocity."
 - experience:
   role: CCN Lecturer
   time: 2019 - Present
   company: Telecom SudParis, Evry, France
-  details: "I am working as a lecturer in the course of Low-level data mangagement for the Master of Science program (CCN)."
+  details: "Lectured the “Low-level Data Management” course in the CCN Master’s program, covering systems-level data handling and operating systems."
 - experience:
   role: Senior Tech Specialist
   time: 2008 - Present
   company: Mint3 Inc.
-  details: "I work as a consultant in my free time developing web systems or providing consulting for infrastructure.
-  I have a strong focus on web systems which I have worked with PHP and Symfony (from version 1 to 5).
-  I have designed web systems focused on health, where there are interfaces for doctors and patients.
-  For other companies, I have also worked on administrative tools, mainly companies that want to digitalize multiple processes and keep a better track of their work.
-  These tools range from volunteering organizations, state-branches offices and exporting companies from Guatemala and Mexico.
-  In the beginning, I worked directly with PHP, MySQL and Apache on a bare metal servers, 
-  but in the last years I have moved all my infrastructure practices to PaaS (Docker) and IaaS (Docker Swarm and Kubernetes).
-  I try to work as modular as possible, in the sense that the development follows the best practices of the moment 
-  as using Docker for scalability and having everything as a microservice, relying on minimal containers running in Alpine.
-  I also have worked in smaller websites based on Jekyll and static HTML.
-  Finally, I have done infrastructure consulting for GPS-services companies for Linux and Windows architecture. "
+  details: "I work as an independent consultant in my free time, focusing on web system development and infrastructure consulting.
+I have designed and built web applications primarily using PHP and Symfony, including health platforms with interfaces for doctors and patients, as well as administrative tools for organizations looking to digitize internal processes.
+My clients have included volunteering organizations, government branches, and export companies across Guatemala and Mexico.
+Initially working with PHP, MySQL, and Apache on bare-metal servers, I transitioned in recent years to using Docker-based PaaS and Kubernetes or Docker Swarm for infrastructure orchestration.
+I emphasize modular, scalable architecture—favoring microservices and lightweight, Alpine-based containers—and follow modern development best practices.
+In addition to larger platforms, I have also built lightweight sites using Jekyll and static HTML.
+I’ve provided infrastructure consulting to GPS service companies, working across both Linux and Windows environments."
 - experience:
   role: Senior DevOps Engineer
   time: 2018 - 2019
   company: Snips, Paris, France
-  details: "Snips is an AI voice platform for connected devices that animates product interactions with customizable voice experiences.
-  At Snips, I worked supporting all operations of the different software designed in-house through the proper development life cycle.
-  I worked a lot with Terraform, Ansible, and git to provide a full infrastructure-as-code.
-  I was also in charge of diffrent activities as mantaining, updating and enhancing services like Elasticsearch, Logstash, and Kibana 7.0, along Grafana for monitoring.
-  Along these tasks, I also worked very close to all the developers to assist them and guide them to migrate new tools to containers and deploy them in containerized environments."
+  details: "I managed a hybrid cloud infrastructure of 300+ servers across Azure, AWS, and GCP, ensuring availability, consistency, and automation across environments while supporting the Backend team’s platform needs.
+I championed the migration from Ansible-managed bare-metal deployments to Kubernetes-based infrastructure, and led the adoption of Terraform to modernize infrastructure as code practices for improved scalability and reusability.
+I improved and maintained CI workflows using Jenkins, automating testing, provisioning, and deployment pipelines to increase release confidence and reduce manual operations across environments."
 - experience:
   role: Scientific Researcher
   time: 2015 - 2018
   company: Telecom SudParis, France
-  details: "I work doing research on the topic of distributed systems, monitoring, and mobile ad-hoc networks.
-  My primary focus has been to propose novel solutions and approaches to provide efficient monitoring techniques for MANETs.
-  I've focused on decentralized (inspired by gossip and hierarchical algorithms) and distributed (inspired in blockchain) approaches.
-  This implies taking into account the properties of this networks as mobility, availability, node range, and others.
-  I have extensive experience defining mathematical models and tools to model the proposals. 
-  Along with this, I have developed multiple tools like a NS3 Docker Emulator, which is a flexible network emulator relying on NS3 and Docker to run the code to be emulated.
-  Through this tool, I have designed other frameworks for monitoring focusing on decentralized and distributed architecture, which have been developed in Java and GoLang.
-  Aside from that, I have integrated the emulator and my proposals with an AWS orchestrator that I built to provide thousands of experiments and data in a short time frame.
-  Together, I have been able to generate a lot of data, then store it in a MongoDB and later run the analysis on the data to be finally presented in publications.
-  All these tools and code can be found on my Github profile."
+  details: "I conducted research in distributed systems, monitoring, and mobile ad-hoc networks (MANETs), with a focus on proposing novel approaches for efficient, decentralized, and distributed monitoring.
+My work drew from gossip-based, hierarchical, and blockchain-inspired algorithms, taking into account key MANET characteristics such as mobility, limited node range, and availability.
+I had extensive experience defining mathematical models and tooling to formalize and simulate proposed solutions.
+As part of this research, I developed the NS3 Docker Emulator—a flexible network emulation platform combining NS3 and Docker for scalable experimentation.
+Using this emulator, I built additional monitoring frameworks with decentralized and distributed architectures, implemented in Java and Go.
+I integrated these systems with an AWS-based orchestrator that enabled thousands of automated experiments, supporting large-scale data collection.
+Results were stored in MongoDB and analyzed to support peer-reviewed publications, with all tooling and source code available on my GitHub profile."
 - experience:
   role: Technical Architect & Senior Consultant
   time: 2011 - 2018
   company: XumaK, Guatemala
-  details: "I work designing global solutions for big companies built on Adobe Experience Manager (AEM).
-  I am used to working with the client from the requirements dissection, through development and QA, 
-  all the way to the deployment in the production environment.
-  Alongside, I have worked as a consultant where I advise the team for bug fixing, good practices, code reviews, 
-  infrastructure considerations, proof of concepts and any help they need. 
-  In both, I have worked with different teams being on site and offsite from 
-  Guatemala, Mexico, Orlando, New York, San Francisco, Cleveland, Charlotte, Los Angeles, Vancouver, Ottawa, Paris, London, Jamaica, Chile, and Brazil,
-  focusing on developing global solutions and integration with AEM, Java and other technologies like e-commerce engines, AWS, Rackspace, Softlayer, Akamai, and analytics engines.
-  I have experience in AEM from version CQ 4 to the most recent AEM 6.4.
-  I have extensive hands-on setting up automated cloud environments fully integrated with continuous integrations, 
-  monitoring and ready for deployment.
-  I have worked with AEM, also extensively with OSGi, Sling, JSP, Java, GoLang, bash, Apache and MongoDB. "
+  details: "I designed global solutions for large enterprises built on Adobe Experience Manager (AEM).
+I worked closely with clients from the initial requirements dissection through development, QA, and production deployment.
+In parallel, I served as a consultant, advising teams on bug fixing, coding best practices, code reviews, infrastructure considerations, proof of concepts, and general technical support.
+I collaborated with on-site and off-site teams across Guatemala, Mexico, Orlando, New York, San Francisco, Cleveland, Charlotte, Los Angeles, Vancouver, Ottawa, Paris, London, Jamaica, Chile, and Brazil.
+These efforts focused on delivering global AEM-based platforms integrated with Java, e-commerce engines, AWS, Rackspace, Softlayer, Akamai, and analytics solutions.
+I worked with AEM from version CQ 4 through AEM 6.4 and had extensive hands-on experience setting up automated cloud environments with continuous integration, monitoring, and production-ready deployment pipelines.
+My technical contributions included work in AEM, OSGi, Sling, JSP, Java, GoLang, Bash, Apache, and MongoDB."
 - experience:
-  role: FISICC Lecturer
-  time: 2012 - 2015
+  role: Lecturer & Teaching Assistant
+  time: 2007 - 2015
   company: Galileo University, Guatemala
   details: "I have worked as a lecturer in the following classes: Computer Science 4 and Informatics 3."
 - experience:
   role: FISICC Teacher Assistant
   time: 2007 - 2015
   company: Galileo University, Guatemala
-  details: "I have worked as a teacher assistant (TA) since I was in my second year of college. 
-  I assisted in the following classes: Computer Science 1, 2, 3 and 4, Differential Equations, 
-  Electricity 1 and 2, Electronics 1, Informatics 3, Mathematics 1, 2, 3, 4, 5 and 7, 
-  Microprocessors, Systems Architecture, Algorithms and Data Structures.
-  After finishing my post graduate degree I also started assisting in this area in the following classes:
-  Security Fundamentals, Windows security and Forensics analysis."
+  details: "I lectured undergraduate courses such as Compilers and Automata Theory, delivering both theoretical and hands-on instruction.
+I worked as a teaching assistant for a broad range of undergraduate courses, including programming, mathematics, and algorithms.
+I also assisted in postgraduate courses covering security-related topics, including security fundamentals, network design, and forensic analysis."
 - experience:
   role: Senior Developer & System Administrator
   time: 2010 - 2011
   company: Previo, Guatemala
-  details: "I was in charge of a small team of developers and designers, where our main tasks were to create big databases 
-  with lots of information about countries, real states, cars, boats, planes and heavy machinery,
-   with that information we built a system that could create dynamic websites based on different combination of the data. 
-   All websites were required to be SEO friendly, in which we focused lot of time implementing good practices, 
-   analysing traffic and with the feedback we enhanced the websites. 
-   The websites and main interfaces were built with PHP, Symfony 2, MySQL, Apache, BIND and bash scripts.
-   We took optimizing seriously since an important factor was fast response time, 
-   this included Linux itself and Apache with different optimization modules, 
-   then database denormalization and finally framework and code optimizations."
+  details: "I led a small team of developers and designers focused on building large databases containing information about countries, real estate, cars, boats, planes, and heavy machinery.
+Using this data, we developed a system capable of generating dynamic websites based on various combinations of content.
+All websites needed to be SEO-friendly, so we dedicated significant effort to implementing best practices, analyzing traffic, and iterating based on user feedback to improve performance and visibility.
+The platforms and interfaces were built using PHP, Symfony 2, MySQL, Apache, BIND, and Bash scripts.
+We placed a strong emphasis on performance optimization, starting with Linux and Apache tuning using various modules, followed by database denormalization and application-level code and framework optimizations."
 - experience:
   role: IT Developer
   time: 2009 - 2010
   company: Transactel, Guatemala
-  details: "I worked creating different tools that helped the call center to improve their 
-  operations with tools like recruitment systems, time loggers, internal communication portals and attendance tools. 
-  I also promoted the use of frameworks and good programming practices. 
-  The tools created were built with PHP, Symfony 1.x/2, Wordpress, MySQL and Apache.
-  I worked extensively on the reengineering of their main website (https://www.transactel.net/), 
-  which took the integration of designers, marketers, programmers and administration teams."
+  details: "I developed a variety of internal tools to help the call center improve its operations, including recruitment systems, time loggers, internal communication portals, and attendance tracking tools.
+I actively promoted the adoption of frameworks and best programming practices across the development team.
+These tools were primarily built using PHP, Symfony 1.x/2, WordPress, MySQL, and Apache.
+I also led the reengineering of the company’s main website (https://www.transactel.net/), a collaborative effort involving designers, marketers, developers, and administrative stakeholders."
 - experience:
   role: Programmer
   time: 2009 - 2009
   company: Welco Gaming, Guatemala
-  details: "Worked with Embedded C applications for different projects, 
-  most of the time I focused on code analysis, re factoring code and working on new features."
+  details: "I worked on Embedded C applications across various projects, primarily focusing on code analysis, refactoring, and implementing new features."

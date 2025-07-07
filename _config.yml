@@ -22,25 +22,13 @@ jekyll-minifier:
 name: José Alfredo Alvarez Aldana
 tagline: DevOps Specialist
 pic: me.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-summary: 'I am a DevOps specialist, software architect and computer science researcher.
-As a DevOps specialist, based in Paris, I have worked implementing automation pipelines for big infrastructures relying on Terraform and Ansible for AWS, GCP and Azure.
-I have worked deploying multiple applications written in Python and Scala, natively and containerized, into different environments relying on CI/CD pipelines.
-Lately, I have been focusing on migrations to Kubernetes, implementing efficient log centralization with ELK and also strong monitoring capabilities with Stackdriver, Grafana and Prometheus.
-As a software architect, I have worked with multiple web tech implementations focused on infrastructure, back end and front end development. 
-With this, I am also experienced in project management, scrum methodologies, SEO and marketing.
-I have been lucky to work on site and off site from people from Guatemala, Mexico, the Caribbean, USA, Canada and Europe.
-As a researcher, I worked in Telecom SudParis, France, focused on researching distributed monitoring of MANETs.
-I have proposed different approaches from decentralized to distributed, and I have developed the necessary tools to prove them.
-I developed a NS3 Docker Emulator which has enabled me to re produce accurately thousands of tests in a very short time.
-I am an engineer on computer science graduated from Galileo University in Guatemala.
-After that I studied a master in information technology with specialization in computer networks and information security.
-In search to widen my knowledge, I also studied a second engineering but on electronics. 
-I consider myself a highly proactive person and devoted to finish what I start.
-I like to do a lot of research, so I can fully understand what I am working on. 
-I am very passionate about technology so I try to keep up by reading and studying new technologies and methodologies. 
-On a personal level, I consider myself a very responsible person, I believe that it is what best talks about ourselves. 
-I really like challenges and I know that I am very adaptable to change.
-I always look for the positive things of every situation and try to give the best of me.'
+summary: 'I am a Principal DevOps Engineer with a Ph.D. in Computer Science, specializing in decentralized and distributed monitoring of mobile ad-hoc networks (MANETs). My career has bridged development and infrastructure, giving me a robust foundation in both areas and leading me to specialize in DevOps.
+
+My expertise spans a wide range of technologies, including Ansible, Terraform, Kubernetes, Docker, and various cloud platforms like AWS, GCE, and Azure. I am proficient in languages such as Go, Java, PHP, and Python.
+
+I have worked globally, including in Guatemala, Mexico, the Caribbean, USA, Canada, and Europe. My academic journey includes a B.S. in Computer Science, an M.S. in IT with a focus on computer networks and information security, and a Ph.D. from Telecom SudParis in France.
+
+I am proactive, responsible, and passionate about technology, continuously seeking to expand my knowledge and adapt to new challenges with a positive and committed approach.'
 
 #sidebar links
 email: joselfredo1515@gmail.com
