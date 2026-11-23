@@ -18,14 +18,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Set up Node
+        uses: actions/setup-node@v4
         with:
-          ruby-version: '3.1' # Gemfile.lock pins Jekyll 4.0 / Liquid 4.0.x, which don't run on Ruby 3.2+
-          bundler-cache: true # bundle install from Gemfile.lock, cached between runs
+          node-version: lts/*
+          cache: npm
 
-      - name: Jekyll Build
-        run: bundle exec jekyll build
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Astro Build
+        run: npm run build
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
@@ -35,4 +38,4 @@ jobs:
 
       - name: Copy files to the test website with the AWS CLI
         run: |
-          aws s3 sync --delete ./_site s3://s3-chepeftw.com
+          aws s3 sync --delete ./dist s3://s3-chepeftw.com

@@ -1,0 +1,58 @@
+[
+  {
+    "title": "A Formal Consensus-Based Distributed Monitoring Approach for Mobile IoT Networks",
+    "authors": "Jose Alvarez, Stephane Maag, Fatiha Zaidi.",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2542660520301839?via%3Dihub",
+    "date": "January, 2021",
+    "venue": "Elsevier"
+  },
+  {
+    "title": "DHYMON: A Continuous Decentralized Hybrid Monitoring Architecture for MANETs",
+    "authors": "Jose Alvarez, Stephane Maag, Fatiha Zaidi.",
+    "url": "https://arxiv.org/abs/1712.01676",
+    "date": "November, 2017",
+    "venue": "LATINCOM, Guatemala City, Guatemala"
+  },
+  {
+    "title": "Monitoring Dynamic Mobile Ad-Hoc Networks: A Fully Distributed Hybrid Architecture",
+    "authors": "Jose Alvarez, Stephane Maag, Fatiha Zaidi.",
+    "url": "http://ieeexplore.ieee.org/document/7920938/",
+    "date": "March, 2017",
+    "venue": "AINA, Taipei, Taiwan"
+  },
+  {
+    "title": "MANETs Monitoring With a Distributed Hybrid Architecture",
+    "authors": "Jose Alvarez, Stephane Maag, Fatiha Zaidi.",
+    "url": "http://ieeexplore.ieee.org/document/7778646/",
+    "date": "October, 2016",
+    "venue": "NCA, Cambridge, MA, USA"
+  },
+  {
+    "title": "Protecting Wireless Mesh Networks Through a Distributed Intrusion Prevention Framework",
+    "authors": "Marco To, Jose Alvarez, Oscar Rodas, Gerardo Morales.",
+    "url": "http://ieeexplore.ieee.org/document/7430126/",
+    "date": "November, 2015",
+    "venue": "LATINCOM, Arequipa, Peru"
+  },
+  {
+    "title": "Spanning Data Across Heterogeneous MANETs Through Proactive Strip Interoperability",
+    "authors": "Marco To, Jose Alvarez, Marcos Cano, Gerardo Morales.",
+    "url": "http://ieeexplore.ieee.org/document/7363060/",
+    "date": "October, 2015",
+    "venue": "CIT, Liverpool, UK"
+  },
+  {
+    "title": "A Reliable and Scalable Classification-Based Hybrid IPS",
+    "authors": "Oscar Rodas, Jose Alvarez, Gerardo Morales.",
+    "url": "https://www.researchgate.net/profile/Jose_Alvarez39/publication/271851195_A_Reliable_and_Scalable_Classification-based_Hybrid_IPS/links/54d4f9ad0cf25013d02a473f.pdf",
+    "date": "March, 2015",
+    "venue": "AINA Workshop, Gwangju, Korea"
+  },
+  {
+    "title": "A Novel Classification-Based Hybrid IDS",
+    "authors": "Oscar Rodas, Jose Alvarez, Gerardo Morales, Stephane Maag.",
+    "url": "https://www.researchgate.net/profile/Oscar_Rodas/publication/271079268_A_novel_Classification-based_Hybrid_IDS/links/54bddfd80cf218da9391d099.pdf",
+    "date": "December, 2014",
+    "venue": "PASSAT, Cambridge, MA, USA"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Linux Management",
+    "level": "100%"
+  },
+  {
+    "name": "AWS, GCP, Azure",
+    "level": "100%"
+  },
+  {
+    "name": "Terraform, Terragrunt, Terramate, Ansible",
+    "level": "100%"
+  },
+  {
+    "name": "Containers (Docker, Docker Compose, Docker Swarm, Kubernetes)",
+    "level": "100%"
+  },
+  {
+    "name": "PHP (Symfony), Java (AEM), GoLang, Python",
+    "level": "100%"
+  },
+  {
+    "name": "HTML5, CSS, Javascript",
+    "level": "75%"
+  }
+]

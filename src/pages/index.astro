@@ -1,0 +1,122 @@
+---
+import Base from '../layouts/Base.astro';
+import Section from '../components/Section.astro';
+import Entry from '../components/Entry.astro';
+import profile from '../data/profile.json';
+import experiences from '../data/experiences.json';
+import publications from '../data/publications.json';
+import conferences from '../data/conferences.json';
+import educations from '../data/educations.json';
+import skills from '../data/skills.json';
+import languages from '../data/languages.json';
+import interests from '../data/interests.json';
+
+const badges = [
+  '437a92be-ce44-4aed-bd99-b9f290393879',
+  '0cc01680-fdb2-44cc-83f2-d6d33722969b',
+  '2836d349-e0a7-4867-93fa-544cf7067e1f',
+  'ef913a8e-4b9b-4036-bb79-aee1cd516cf1',
+  '6de503fa-c67f-4a61-9a0f-f4416c4609ee',
+  '86401a82-c59f-4e51-8990-1e38d9f0c7ae',
+];
+
+const contacts = [
+  { label: 'Email', text: profile.email, href: `mailto:${profile.email}` },
+  { label: 'Phone', text: profile.phone, href: `tel:${profile.phone.replace(/\s/g, '')}` },
+  { label: 'Web', text: profile.website, href: `https://${profile.website}` },
+  { label: 'LinkedIn', text: profile.linkedin, href: `https://linkedin.com/in/${profile.linkedin}` },
+  { label: 'GitHub', text: profile.github, href: `https://github.com/${profile.github}` },
+  { label: 'Twitter', text: profile.twitter, href: `https://twitter.com/${profile.twitter.replace('@', '')}` },
+  { label: 'DBLP', text: profile.dblp, href: `https://dblp.org/pid/a/${profile.dblp}` },
+];
+---
+<Base
+  title={`${profile.name} - Online CV`}
+  description={`${profile.name}, ${profile.tagline}. ${profile.summary[0].slice(0, 120)}…`}
+>
+  <main>
+    <header class="hero">
+      <img src="/me.jpeg" alt={profile.name} width="120" height="120" />
+      <div>
+        <h1>{profile.name}</h1>
+        <p class="tagline">{profile.tagline}</p>
+        <ul class="contacts">
+          {contacts.map((c) => (
+            <li><span>{c.label}</span> <a href={c.href} target={c.href.startsWith('http') ? '_blank' : undefined} rel="noopener">{c.text}</a></li>
+          ))}
+        </ul>
+      </div>
+    </header>
+
+    <Section title="Career Profile" id="profile">
+      {profile.summary.map((p) => <p>{p}</p>)}
+    </Section>
+
+    <Section title="Experience" id="experience">
+      {experiences.map((e) => (
+        <Entry title={e.role} meta={e.company} time={e.time}>
+          {e.details.length > 1
+            ? <ul>{e.details.map((d) => <li>{d}</li>)}</ul>
+            : e.details.map((d) => <p>{d}</p>)}
+        </Entry>
+      ))}
+    </Section>
+
+    <Section title="Certifications" id="certifications">
+      <div class="badges">
+        {badges.map((id) => (
+          <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id={id} data-share-badge-host="https://www.credly.com"></div>
+        ))}
+      </div>
+      <script is:inline async src="https://cdn.credly.com/assets/utilities/embed.js"></script>
+    </Section>
+
+    <Section title="Publications" id="publications">
+      {publications.map((p) => (
+        <Entry title={p.title} url={p.url} time={p.date} meta={`${p.authors} ${p.venue}`} />
+      ))}
+    </Section>
+
+    <Section title="Conferences" id="conferences">
+      {conferences.map((c) => (
+        <Entry title={c.title} time={String(c.time)} meta={c.location}>
+          <p>{c.details}</p>
+        </Entry>
+      ))}
+    </Section>
+
+    <div class="columns">
+      <Section title="Education" id="education">
+        {educations.map((e) => (
+          <Entry title={e.degree} meta={e.university} time={e.time} />
+        ))}
+      </Section>
+
+      <div>
+        <Section title="Languages" id="languages">
+          <ul class="plain">
+            {languages.map((l) => <li>{l.idiom} <span class="muted">({l.level})</span></li>)}
+          </ul>
+        </Section>
+        <Section title="Interests" id="interests">
+          <ul class="plain">
+            {interests.map((i) => <li>{i.link ? <a href={i.link} target="_blank" rel="noopener">{i.item}</a> : i.item}</li>)}
+          </ul>
+        </Section>
+      </div>
+    </div>
+
+    <Section title="Skills" id="skills">
+      <ul class="skills">
+        {skills.map((s) => (
+          <li>
+            <span>{s.name}</span>
+            <div class="bar" role="img" aria-label={`${s.name}: ${s.level}`}><div style={`width:${s.level}`}></div></div>
+          </li>
+        ))}
+      </ul>
+    </Section>
+
+    <footer>© {new Date().getFullYear()} {profile.name}</footer>
+  </main>
+</Base>
