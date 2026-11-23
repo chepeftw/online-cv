@@ -1,35 +1,26 @@
-This theme is designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/).
-Visit her [website](http://themes.3rdwavemedia.com/) for more themes.
+# Online CV
 
-I have made this into a Jekyll Theme.
-**Demo:** [http://webjeda.com/online-cv/](http://webjeda.com/online-cv/).
+Source of [chepeftw.com](https://chepeftw.com), built with [Astro](https://astro.build).
 
-The default theme would look like this:
+## Content
 
-![online cv Jekyll theme](https://github.com/sharu725/online-cv/raw/master/assets/images/online-cv-jekyll-theme.png)
+All content lives in [src/data/](src/data/) as JSON files (profile, experiences, publications, conferences, education, skills, languages, interests). Edit those and the page updates.
 
-The theme is responsive:
+## Local development
 
-![online cv responsive Jekyll theme](https://github.com/sharu725/online-cv/raw/master/assets/images/online-cv-responsive-jekyll-theme.png)
+With Docker (hot reload, http://localhost:4321):
 
-There are 6 color schemes available:
+    docker compose up
 
-| Default | Style 2 | Style 3 |
-|---------|---------|---------|
-| <img src="http://themes.3rdwavemedia.com/wp-content/uploads/2016/01/free-resume-cv-bootstrap-template-for-developer-color-1.jpg" width="300"/> | <img src="http://themes.3rdwavemedia.com/wp-content/uploads/2016/01/free-resume-cv-bootstrap-template-for-developer-color-2.jpg" width="300"/> | <img src="http://themes.3rdwavemedia.com/wp-content/uploads/2016/01/free-resume-cv-bootstrap-template-for-developer-color-3.jpg" width="300"/> |
+Production build served by nginx, as it will be deployed (http://localhost:8486):
 
-| Style 4 | Style 5 | Style 6 |
-|---------|---------|---------|
-| <img src="http://themes.3rdwavemedia.com/wp-content/uploads/2016/01/free-resume-cv-bootstrap-template-for-developer-color-4.jpg" width="300"/> | <img src="http://themes.3rdwavemedia.com/wp-content/uploads/2016/01/free-resume-cv-bootstrap-template-for-developer-color-5.jpg" width="300"/> | <img src="http://themes.3rdwavemedia.com/wp-content/uploads/2016/01/free-resume-cv-bootstrap-template-for-developer-color-6.jpg" width="300"/> |
+    docker compose --profile prod up --build prod
 
-## Installation
+Without Docker:
 
-* Fork the repository
-* Go to settings and set Github Pages source as master.
-* Your new site should be ready at https://username.github.io/online-cv/
+    npm install
+    npm run dev
 
-Watch my [video](https://www.youtube.com/embed/T2nx6tj-ZH4) on installation.
+## Deploy
 
-Thanks to [Nelson Estevão](https://github.com/nelsonmestevao) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=nelsonmestevao).
-
-Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com).
+Pushing to `master` runs [the workflow](.github/workflows/deploy-website.yaml), which builds the site and syncs `dist/` to S3.

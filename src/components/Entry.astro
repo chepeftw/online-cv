@@ -1,0 +1,12 @@
+---
+interface Props { title: string; meta?: string; time?: string; url?: string }
+const { title, meta, time, url } = Astro.props;
+---
+<article class="entry">
+  <header>
+    <h3>{url ? <a href={url} target="_blank" rel="noopener">{title}</a> : title}</h3>
+    {time && <span class="time">{time}</span>}
+  </header>
+  {meta && <p class="meta">{meta}</p>}
+  <slot />
+</article>

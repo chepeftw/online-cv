@@ -1,0 +1,30 @@
+[
+  {
+    "category": "Cloud & Infrastructure",
+    "items": ["AWS", "GCP", "Azure", "Linux", "Terraform", "Terragrunt", "Terramate", "Ansible"]
+  },
+  {
+    "category": "Containers & Delivery",
+    "items": ["Kubernetes", "Docker", "GitOps", "Argo", "Flux", "GitHub Actions", "Jenkins"]
+  },
+  {
+    "category": "Kubernetes Ecosystem",
+    "items": ["Cilium", "KEDA", "VPA", "kagent"]
+  },
+  {
+    "category": "Security & Secrets",
+    "items": ["Vault", "External Secrets", "cert-manager", "Wiz"]
+  },
+  {
+    "category": "Observability",
+    "items": ["Prometheus", "Thanos", "VictoriaMetrics", "Grafana", "OpenSearch", "OpenTelemetry", "Fluent Bit"]
+  },
+  {
+    "category": "Languages",
+    "items": ["Go", "Python", "Bash", "Java", "PHP", "JavaScript"]
+  },
+  {
+    "category": "Earlier work",
+    "items": ["Adobe Experience Manager", "OSGi", "Sling", "Symfony", "MySQL", "MongoDB"]
+  }
+]

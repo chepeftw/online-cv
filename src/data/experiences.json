@@ -1,0 +1,126 @@
+[
+  {
+    "role": "Quantitative Technology Director",
+    "time": "2025 - Present",
+    "company": "Qube Research & Technologies",
+    "details": [
+      "I lead technology initiatives supporting quantitative research at a global firm, working at the intersection of research, engineering, and infrastructure.",
+      "My focus is on building reliable, high-performance platforms that let researchers and engineers move quickly."
+    ]
+  },
+  {
+    "role": "CCN Lecturer",
+    "time": "2019 - Present",
+    "company": "Telecom SudParis, Evry, France",
+    "details": [
+      "Lectured the “Low-level Data Management” course in the CCN Master’s program, covering systems-level data handling and operating systems."
+    ]
+  },
+  {
+    "role": "Principal DevOps Engineer",
+    "time": "2019 - 2025",
+    "company": "Sonos, Paris, France",
+    "details": [
+      "As Principal DevOps Engineer for the Sonos Voice Experience team, I owned and architected a complex AWS multi-account infrastructure supporting global-scale services and machine learning workloads that scaled dynamically to over 400 instances.",
+      "I delivered secure, resilient, and scalable environments using Terraform, Terragrunt, and Terramate, with a strong focus on modular code, CI validations, and automated release pipelines.",
+      "I led the Kubernetes infrastructure strategy and GitOps automation using Argo tools, enabling developers to deploy via self-service pipelines with progressive delivery, while ensuring strict access controls, namespace governance, and operational consistency.",
+      "I built and scaled a comprehensive observability stack—including Prometheus, Thanos, Grafana, OpenSearch, and OpenTelemetry—working closely with developers to instrument services and improve performance monitoring and incident response.",
+      "I also drove infrastructure governance in partnership with networking, security, and FinOps teams, enforcing IAM, cost, and network policies through automation and secure-by-default practices.",
+      "In parallel, I led major modernization efforts such as AWS account restructuring, CI/CD migration from Jenkins to GitHub Actions, and compute migration from EC2 to Kubernetes.",
+      "I provided technical direction and mentorship across multiple teams, championing best practices in cloud architecture, GitOps, and scalable infrastructure to enhance platform reliability and engineering velocity."
+    ]
+  },
+  {
+    "role": "Senior Tech Specialist",
+    "time": "2008 - Present",
+    "company": "Mint3 Inc.",
+    "details": [
+      "I work as an independent consultant in my free time, focusing on web system development and infrastructure consulting.",
+      "I have designed and built web applications primarily using PHP and Symfony, including health platforms with interfaces for doctors and patients, as well as administrative tools for organizations looking to digitize internal processes.",
+      "My clients have included volunteering organizations, government branches, and export companies across Guatemala and Mexico.",
+      "Initially working with PHP, MySQL, and Apache on bare-metal servers, I transitioned in recent years to using Docker-based PaaS and Kubernetes or Docker Swarm for infrastructure orchestration.",
+      "I emphasize modular, scalable architecture—favoring microservices and lightweight, Alpine-based containers—and follow modern development best practices.",
+      "In addition to larger platforms, I have also built lightweight sites using Jekyll and static HTML.",
+      "I’ve provided infrastructure consulting to GPS service companies, working across both Linux and Windows environments."
+    ]
+  },
+  {
+    "role": "Senior DevOps Engineer",
+    "time": "2018 - 2019",
+    "company": "Snips, Paris, France",
+    "details": [
+      "I managed a hybrid cloud infrastructure of 300+ servers across Azure, AWS, and GCP, ensuring availability, consistency, and automation across environments while supporting the Backend team’s platform needs.",
+      "I championed the migration from Ansible-managed bare-metal deployments to Kubernetes-based infrastructure, and led the adoption of Terraform to modernize infrastructure as code practices for improved scalability and reusability.",
+      "I improved and maintained CI workflows using Jenkins, automating testing, provisioning, and deployment pipelines to increase release confidence and reduce manual operations across environments."
+    ]
+  },
+  {
+    "role": "Scientific Researcher",
+    "time": "2015 - 2018",
+    "company": "Telecom SudParis, France",
+    "details": [
+      "I conducted research in distributed systems, monitoring, and mobile ad-hoc networks (MANETs), with a focus on proposing novel approaches for efficient, decentralized, and distributed monitoring.",
+      "My work drew from gossip-based, hierarchical, and blockchain-inspired algorithms, taking into account key MANET characteristics such as mobility, limited node range, and availability.",
+      "I had extensive experience defining mathematical models and tooling to formalize and simulate proposed solutions.",
+      "As part of this research, I developed the NS3 Docker Emulator—a flexible network emulation platform combining NS3 and Docker for scalable experimentation.",
+      "Using this emulator, I built additional monitoring frameworks with decentralized and distributed architectures, implemented in Java and Go.",
+      "I integrated these systems with an AWS-based orchestrator that enabled thousands of automated experiments, supporting large-scale data collection.",
+      "Results were stored in MongoDB and analyzed to support peer-reviewed publications, with all tooling and source code available on my GitHub profile."
+    ]
+  },
+  {
+    "role": "Technical Architect & Senior Consultant",
+    "time": "2011 - 2018",
+    "company": "XumaK, Guatemala",
+    "details": [
+      "I designed global solutions for large enterprises built on Adobe Experience Manager (AEM).",
+      "I worked closely with clients from the initial requirements dissection through development, QA, and production deployment.",
+      "In parallel, I served as a consultant, advising teams on bug fixing, coding best practices, code reviews, infrastructure considerations, proof of concepts, and general technical support.",
+      "I collaborated with on-site and off-site teams across Guatemala, Mexico, Orlando, New York, San Francisco, Cleveland, Charlotte, Los Angeles, Vancouver, Ottawa, Paris, London, Jamaica, Chile, and Brazil.",
+      "These efforts focused on delivering global AEM-based platforms integrated with Java, e-commerce engines, AWS, Rackspace, Softlayer, Akamai, and analytics solutions.",
+      "I worked with AEM from version CQ 4 through AEM 6.4 and had extensive hands-on experience setting up automated cloud environments with continuous integration, monitoring, and production-ready deployment pipelines.",
+      "My technical contributions included work in AEM, OSGi, Sling, JSP, Java, GoLang, Bash, Apache, and MongoDB."
+    ]
+  },
+  {
+    "role": "Lecturer & Teaching Assistant",
+    "time": "2007 - 2015",
+    "company": "Galileo University, Guatemala",
+    "details": [
+      "I lectured undergraduate courses such as Compilers and Automata Theory, delivering both theoretical and hands-on instruction.",
+      "I also served as a teaching assistant for a broad range of undergraduate courses, including programming, mathematics, and algorithms.",
+      "Additionally, I assisted in postgraduate courses focused on security-related topics such as security fundamentals, network design, and forensic analysis."
+    ]
+  },
+  {
+    "role": "Senior Developer & System Administrator",
+    "time": "2010 - 2011",
+    "company": "Previo, Guatemala",
+    "details": [
+      "I led a small team of developers and designers focused on building large databases containing information about countries, real estate, cars, boats, planes, and heavy machinery.",
+      "Using this data, we developed a system capable of generating dynamic websites based on various combinations of content.",
+      "All websites needed to be SEO-friendly, so we dedicated significant effort to implementing best practices, analyzing traffic, and iterating based on user feedback to improve performance and visibility.",
+      "The platforms and interfaces were built using PHP, Symfony 2, MySQL, Apache, BIND, and Bash scripts.",
+      "We placed a strong emphasis on performance optimization, starting with Linux and Apache tuning using various modules, followed by database denormalization and application-level code and framework optimizations."
+    ]
+  },
+  {
+    "role": "IT Developer",
+    "time": "2009 - 2010",
+    "company": "Transactel, Guatemala",
+    "details": [
+      "I developed a variety of internal tools to help the call center improve its operations, including recruitment systems, time loggers, internal communication portals, and attendance tracking tools.",
+      "I actively promoted the adoption of frameworks and best programming practices across the development team.",
+      "These tools were primarily built using PHP, Symfony 1.x/2, WordPress, MySQL, and Apache.",
+      "I also led the reengineering of the company’s main website (https://www.transactel.net/), a collaborative effort involving designers, marketers, developers, and administrative stakeholders."
+    ]
+  },
+  {
+    "role": "Programmer",
+    "time": "2009 - 2009",
+    "company": "Welco Gaming, Guatemala",
+    "details": [
+      "I worked on Embedded C applications across various projects, primarily focusing on code analysis, refactoring, and implementing new features."
+    ]
+  }
+]
