@@ -69,7 +69,7 @@ section > p:last-child { margin-bottom: 0; }
 .entry ul { margin: 0.5rem 0 0; padding-left: 1.2rem; }
 .entry li { margin-bottom: 0.4rem; }
 
-.badges { display: flex; flex-wrap: wrap; gap: 1rem; }
+.badges { display: flex; flex-wrap: wrap; gap: 1rem; min-height: 270px; }
 .columns { display: grid; grid-template-columns: 3fr 2fr; gap: 1.25rem; }
 .columns > div > section:last-child { margin-bottom: 1.25rem; }
 .plain { list-style: none; margin: 0; padding: 0; }
