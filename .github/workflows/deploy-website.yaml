@@ -36,9 +36,15 @@ jobs:
           role-to-assume: arn:aws:iam::671370548051:role/github-deploy-online-cv
           aws-region: us-east-1
 
-      - name: Copy files to the test website with the AWS CLI
+      # Cache-Control is set per kind of file; the CDN (infrastructure-ftw, stacks/chepeftw.com) follows it.
+      - name: Upload to S3
+        env:
+          BUCKET: s3://s3-chepeftw.com
         run: |
-          aws s3 sync --delete ./dist s3://s3-chepeftw.com
+          # 1. Everything that isn't a page (images, icons, ...): 1 day.
+          aws s3 sync dist "$BUCKET" --delete --exclude "*.html" --cache-control "public, max-age=86400"
+          # 2. Pages last. Short cache, plus the invalidation below.
+          aws s3 sync dist "$BUCKET" --delete --exclude "*" --include "*.html" --cache-control "public, max-age=300"
 
       # Skipped until the repository variable CLOUDFRONT_DISTRIBUTION_ID is set (the distribution ID is the `cdn_id`
       # output of infrastructure-ftw's stacks/chepeftw.com; set it after that change is applied, because the deploy
