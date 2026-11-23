@@ -107,14 +107,16 @@ const contacts = [
     </div>
 
     <Section title="Skills" id="skills">
-      <ul class="skills">
-        {skills.map((s) => (
-          <li>
-            <span>{s.name}</span>
-            <div class="bar" role="img" aria-label={`${s.name}: ${s.level}`}><div style={`width:${s.level}`}></div></div>
-          </li>
+      <dl class="skills">
+        {skills.map((g) => (
+          <>
+            <dt>{g.category}</dt>
+            <dd>
+              <ul class="tags">{g.items.map((i) => <li>{i}</li>)}</ul>
+            </dd>
+          </>
         ))}
-      </ul>
+      </dl>
     </Section>
 
     <footer>© {new Date().getFullYear()} {profile.name}</footer>

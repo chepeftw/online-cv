@@ -1,16 +1,11 @@
 [
   {
-    "role": "Principal DevOps Engineer",
-    "time": "2019 - Present",
-    "company": "Sonos, Paris, France",
+    "role": "Quantitative Technology Director",
+    "time": "2025 - Present",
+    "company": "Qube Research & Technologies",
     "details": [
-      "As Principal DevOps Engineer for the Sonos Voice Experience team, I own and architect a complex AWS multi-account infrastructure supporting global-scale services and machine learning workloads that scale dynamically to over 400 instances.",
-      "I deliver secure, resilient, and scalable environments using Terraform, Terragrunt, and Terramate, with a strong focus on modular code, CI validations, and automated release pipelines.",
-      "I lead the Kubernetes infrastructure strategy and GitOps automation using Argo tools, enabling developers to deploy via self-service pipelines with progressive delivery, while ensuring strict access controls, namespace governance, and operational consistency.",
-      "I build and scale a comprehensive observability stack—including Prometheus, Thanos, Grafana, OpenSearch, and OpenTelemetry—working closely with developers to instrument services and improve performance monitoring and incident response.",
-      "I also drive infrastructure governance in partnership with networking, security, and FinOps teams, enforcing IAM, cost, and network policies through automation and secure-by-default practices.",
-      "In parallel, I lead major modernization efforts such as AWS account restructuring, CI/CD migration from Jenkins to GitHub Actions, and compute migration from EC2 to Kubernetes.",
-      "I provide technical direction and mentorship across multiple teams, championing best practices in cloud architecture, GitOps, and scalable infrastructure to enhance platform reliability and engineering velocity."
+      "I lead technology initiatives supporting quantitative research at a global firm, working at the intersection of research, engineering, and infrastructure.",
+      "My focus is on building reliable, high-performance platforms that let researchers and engineers move quickly."
     ]
   },
   {
@@ -19,6 +14,20 @@
     "company": "Telecom SudParis, Evry, France",
     "details": [
       "Lectured the “Low-level Data Management” course in the CCN Master’s program, covering systems-level data handling and operating systems."
+    ]
+  },
+  {
+    "role": "Principal DevOps Engineer",
+    "time": "2019 - 2025",
+    "company": "Sonos, Paris, France",
+    "details": [
+      "As Principal DevOps Engineer for the Sonos Voice Experience team, I owned and architected a complex AWS multi-account infrastructure supporting global-scale services and machine learning workloads that scaled dynamically to over 400 instances.",
+      "I delivered secure, resilient, and scalable environments using Terraform, Terragrunt, and Terramate, with a strong focus on modular code, CI validations, and automated release pipelines.",
+      "I led the Kubernetes infrastructure strategy and GitOps automation using Argo tools, enabling developers to deploy via self-service pipelines with progressive delivery, while ensuring strict access controls, namespace governance, and operational consistency.",
+      "I built and scaled a comprehensive observability stack—including Prometheus, Thanos, Grafana, OpenSearch, and OpenTelemetry—working closely with developers to instrument services and improve performance monitoring and incident response.",
+      "I also drove infrastructure governance in partnership with networking, security, and FinOps teams, enforcing IAM, cost, and network policies through automation and secure-by-default practices.",
+      "In parallel, I led major modernization efforts such as AWS account restructuring, CI/CD migration from Jenkins to GitHub Actions, and compute migration from EC2 to Kubernetes.",
+      "I provided technical direction and mentorship across multiple teams, championing best practices in cloud architecture, GitOps, and scalable infrastructure to enhance platform reliability and engineering velocity."
     ]
   },
   {

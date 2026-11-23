@@ -1,26 +1,30 @@
 [
   {
-    "name": "Linux Management",
-    "level": "100%"
+    "category": "Cloud & Infrastructure",
+    "items": ["AWS", "GCP", "Azure", "Linux", "Terraform", "Terragrunt", "Terramate", "Ansible"]
   },
   {
-    "name": "AWS, GCP, Azure",
-    "level": "100%"
+    "category": "Containers & Delivery",
+    "items": ["Kubernetes", "Docker", "GitOps", "Argo", "Flux", "GitHub Actions", "Jenkins"]
   },
   {
-    "name": "Terraform, Terragrunt, Terramate, Ansible",
-    "level": "100%"
+    "category": "Kubernetes Ecosystem",
+    "items": ["Cilium", "KEDA", "VPA", "kagent"]
   },
   {
-    "name": "Containers (Docker, Docker Compose, Docker Swarm, Kubernetes)",
-    "level": "100%"
+    "category": "Security & Secrets",
+    "items": ["Vault", "External Secrets", "cert-manager", "Wiz"]
   },
   {
-    "name": "PHP (Symfony), Java (AEM), GoLang, Python",
-    "level": "100%"
+    "category": "Observability",
+    "items": ["Prometheus", "Thanos", "VictoriaMetrics", "Grafana", "OpenSearch", "OpenTelemetry", "Fluent Bit"]
   },
   {
-    "name": "HTML5, CSS, Javascript",
-    "level": "75%"
+    "category": "Languages",
+    "items": ["Go", "Python", "Bash", "Java", "PHP", "JavaScript"]
+  },
+  {
+    "category": "Earlier work",
+    "items": ["Adobe Experience Manager", "OSGi", "Sling", "Symfony", "MySQL", "MongoDB"]
   }
 ]
